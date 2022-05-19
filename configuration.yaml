@@ -18,7 +18,7 @@ homeassistant:
 binary_sensor:
   - platform: meteoalarm
     country: "netherlands"
-    province: "Groningen"
+    province: !secret province
     language: "nl-NL"
 
 #Configure http so it can used with proxy manager
