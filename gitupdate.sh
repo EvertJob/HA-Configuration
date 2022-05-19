@@ -1,6 +1,6 @@
 # Go to /config folder or 
 # Change this to your Home Assistant config folder if it is different
-sudo cd /config
+# sudo cd /config
 
 # Clear cached
 sudo git rm -r --cached .
