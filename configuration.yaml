@@ -20,6 +20,9 @@ discovery:
     - philips_hue
     - apple_tv
 
+netatmo:
+  client_id: 62865e7c21946052585e444d
+  client_secret: X6obconqq9TVJltjPibW06qYgKnmI0WZNtB14b
 
 #Configure http so it can used with proxy manager
 http:
