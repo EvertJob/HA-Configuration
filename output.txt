@@ -1778,3 +1778,31 @@ rm 'moonraker.yaml'
 rm 'output.txt'
 rm 'scenes.yaml'
 rm 'scripts.yaml'
+[master 5d7bfba] config files on 19-05-2022 17:22:01
+ 3 files changed, 29 insertions(+), 4 deletions(-)
+ create mode 100644 include/intergrations/netatmo.yaml
+To github.com:EvertJob/HA-Configuration.git
+   8360c05..5d7bfba  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+rm '.gitignore'
+rm 'README.md'
+rm 'automations.yaml'
+rm 'configuration.yaml'
+rm 'groups.yaml'
+rm 'include/automations/container_reminder.yaml'
+rm 'include/binary_sensor/meteoalarm.yaml'
+rm 'include/climate/climate.yaml'
+rm 'include/intergrations/anniversaries.yaml'
+rm 'include/intergrations/deconz.yaml'
+rm 'include/intergrations/discovery.yaml'
+rm 'include/intergrations/home_connect.yaml'
+rm 'include/intergrations/influxdb.yaml'
+rm 'include/intergrations/moonraker'
+rm 'include/intergrations/netatmo.yaml'
+rm 'include/intergrations/notify.yaml'
+rm 'include/intergrations/panel_custom.yaml'
+rm 'include/intergrations/sun.yaml'
+rm 'moonraker.yaml'
+rm 'output.txt'
+rm 'scenes.yaml'
+rm 'scripts.yaml'
