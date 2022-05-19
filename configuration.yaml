@@ -27,7 +27,7 @@ switch:
   - platform: command_line
     switches:
       octoprint_switch:
-        command_on: ./gitupdate.sh
+        command_on: sudo ./gitupdate.sh
 
 group: !include groups.yaml
 # automation: !include automations.yaml
