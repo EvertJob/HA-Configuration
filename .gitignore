@@ -1,0 +1,40 @@
+# .gitignore contains all the information to exclude files for upload to Github.
+
+!.gitignore
+!*.md
+!LICENSE
+www/*
+!www/community
+
+# Files and folders to ignore
+#Folders
+backups
+blueprints
+.cloud
+custom_components
+deps
+esphome
+ignore
+image
+packages
+sensors
+.ssh
+.storage
+themes
+tts
+unused
+www
+#Files
+.HA_VERSION
+*.db
+*.old
+*.log
+*.log.*
+*.conf
+*.db-shm
+*.db-wal
+*.csv
+*.json
+
+#The files below does contains credentials. Watchout with uncommment this files!
+secrets.yaml

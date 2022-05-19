@@ -1,0 +1,8 @@
+  - platform: midea_ac
+    host: 192.168.0.43
+    id: !secret midea_id
+    token: !secret midea_token
+    k1: !secret midea_k1
+    use_fan_only_workaround: true
+    prompt_tone: false
+    keep_last_known_online_state: true

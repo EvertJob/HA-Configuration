@@ -1,0 +1,4 @@
+# Use deCONZ for zigbee devices
+deconz:
+  host: !secret deconz_host
+  port: !secret deconz_port

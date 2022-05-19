@@ -1,0 +1,18 @@
+anniversaries:
+  sensors:
+    - name: Verjaardag Evert-Job
+      date: !secret birthday_ej
+      unit_of_measurement: dagen
+      icon_today: mdi:party-popper
+    - name: Verjaardag Pascalle
+      date: !secret birthday_pascalle
+      unit_of_measurement: dagen
+      icon_today: mdi:party-popper
+    - name: Verjaardag Felijne
+      date: !secret birthday_felijne
+      unit_of_measurement: dagen
+      icon_today: mdi:party-popper
+    - name: Trouwdag
+      date: !secret wedding_data
+      unit_of_measurement: dagen
+      icon_today: mdi:balloon

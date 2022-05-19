@@ -1,0 +1,37 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Change radius for home
+homeassistant:
+  name: !secret name
+  temperature_unit: C
+  time_zone: !secret timezone
+  latitude: !secret latitude
+  longitude: !secret longitude
+  unit_system: metric
+  elevation: -1
+  customize:
+    zone.home:
+      radius: 50
+  packages: !include_dir_named include/intergrations
+
+
+#Configure http so it can used with proxy manager
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 172.20.0.2
+
+
+group: !include groups.yaml
+# automation: !include automations.yaml
+#script: !include scripts.yaml
+scene: !include scenes.yaml
+#switch: !include_dir_merge_list switches
+
+automation: !include_dir_merge_list include/automations
+climate: !include_dir_merge_list include/climate
+sensor: !include_dir_merge_list include/sensors
+
+frontend:
+  themes: !include_dir_merge_named themes

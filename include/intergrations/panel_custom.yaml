@@ -1,0 +1,8 @@
+panel_custom:
+  - name: panel_integrations
+    sidebar_title: Integrations
+    sidebar_icon: mdi:audio-input-rca
+    url_path: 'config/integrations'
+    module_url: /api/hassio/app/entrypoint.js
+    embed_iframe: true
+    require_admin: true
