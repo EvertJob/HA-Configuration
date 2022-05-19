@@ -3,13 +3,13 @@
 # sudo cd /config
 
 # Clear cached
-git rm -r --cached .
+sudo git rm -r --cached .
 
 # Add all files to the repository with respect to .gitignore rules
-git add .
+sudo git add .
 
 # Commit changes with message with current date stamp
-git commit -m "config files on `date +'%d-%m-%Y %H:%M:%S'`"
+sudo git commit -m "config files on `date +'%d-%m-%Y %H:%M:%S'`"
 
 # Push changes towards GitHub
-git push -u origin master
+sudo git push -u origin master
