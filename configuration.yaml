@@ -15,6 +15,12 @@ homeassistant:
       radius: 50
   packages: !include_dir_named include/intergrations
 
+discovery:
+  ignore:
+    - philips_hue
+    - apple_tv
+
+
 #Configure http so it can used with proxy manager
 http:
   use_x_forwarded_for: true
