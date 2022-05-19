@@ -2,11 +2,11 @@ notify:
   - name: ALL_DEVICES
     platform: group
     services:
-      - service: mobile_app_iphone_13_pro_max_evert_job
+      - service: !secret iphone_ej
       - service: mobile_app_ipad
 
   - name: ALL_IPHONES
     platform: group
     services:
-      - service: mobile_app_iphone_13_pro_max_evert_job
-      - service: mobile_app_iphone_van_pascalle
+      - service: !secret iphone_ej
+      - service: !secret iphone_p

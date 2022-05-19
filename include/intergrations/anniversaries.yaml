@@ -5,11 +5,11 @@ anniversaries:
       unit_of_measurement: dagen
       icon_today: mdi:party-popper
     - name: Verjaardag Pascalle
-      date: !secret birthday_pascalle
+      date: !secret birthday_p
       unit_of_measurement: dagen
       icon_today: mdi:party-popper
     - name: Verjaardag Felijne
-      date: !secret birthday_felijne
+      date: !secret birthday_f
       unit_of_measurement: dagen
       icon_today: mdi:party-popper
     - name: Trouwdag

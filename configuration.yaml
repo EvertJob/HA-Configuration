@@ -22,13 +22,6 @@ http:
   trusted_proxies:
     - 172.20.0.2
 
-
-switch:
-  - platform: command_line
-    switches:
-      octoprint_switch:
-        command_on: sudo ./gitupdate.sh
-
 group: !include groups.yaml
 # automation: !include automations.yaml
 #script: !include scripts.yaml
