@@ -15,6 +15,11 @@ homeassistant:
       radius: 50
   packages: !include_dir_named include/intergrations
 
+binary_sensor:
+  - platform: meteoalarm
+    country: "netherlands"
+    province: "Groningen"
+    language: "nl-NL"
 
 #Configure http so it can used with proxy manager
 http:
