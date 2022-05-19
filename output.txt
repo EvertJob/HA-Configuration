@@ -134,3 +134,31 @@ rm 'moonraker.yaml'
 rm 'output.txt'
 rm 'scenes.yaml'
 rm 'scripts.yaml'
+[master 62c70d6] config files on 19-05-2022 16:18:01
+ 3 files changed, 29 insertions(+), 2 deletions(-)
+ delete mode 100644 .gitupdate.sh.swp
+ delete mode 100755 Cron.sh
+To github.com:EvertJob/HA-Configuration.git
+   c723728..62c70d6  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+rm '.gitignore'
+rm 'README.md'
+rm 'automations.yaml'
+rm 'configuration.yaml'
+rm 'gitupdate.sh'
+rm 'groups.yaml'
+rm 'include/automations/container_reminder.yaml'
+rm 'include/climate/climate.yaml'
+rm 'include/intergrations/anniversaries.yaml'
+rm 'include/intergrations/deconz.yaml'
+rm 'include/intergrations/discovery.yaml'
+rm 'include/intergrations/home_connect.yaml'
+rm 'include/intergrations/influxdb.yaml'
+rm 'include/intergrations/moonraker'
+rm 'include/intergrations/notify.yaml'
+rm 'include/intergrations/panel_custom.yaml'
+rm 'include/intergrations/sun.yaml'
+rm 'moonraker.yaml'
+rm 'output.txt'
+rm 'scenes.yaml'
+rm 'scripts.yaml'

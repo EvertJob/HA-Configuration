@@ -35,6 +35,6 @@ www
 *.db-wal
 *.csv
 *.json
-
+*.sh
 #The files below does contains credentials. Watchout with uncommment this files!
 secrets.yaml
