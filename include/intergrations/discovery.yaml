@@ -1,4 +1,0 @@
-discovery:
-  ignore:
-    - philips_hue
-    - apple_tv

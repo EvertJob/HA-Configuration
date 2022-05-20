@@ -1,4 +1,4 @@
 # Set InfluxDB to write all the data.
 influxdb:
-  host: 192.168.0.2
-  database: home_assistant
+  host: !secret host
+  database: !secret influx_database
