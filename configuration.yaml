@@ -15,11 +15,6 @@ homeassistant:
       radius: 50
   packages: !include_dir_named include/intergrations
 
-discovery:
-  ignore:
-    - philips_hue
-    - apple_tv
-
 group: !include groups.yaml
 # automation: !include automations.yaml
 #script: !include scripts.yaml

@@ -25,7 +25,6 @@ tts
 unused
 www
 #Files
-.HA_VERSION
 *.db
 *.old
 *.log
