@@ -1,0 +1,5 @@
+#Configure http so it can used with proxy manager
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 172.20.0.2
