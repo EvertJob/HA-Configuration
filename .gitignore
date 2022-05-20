@@ -35,5 +35,6 @@ www
 *.csv
 *.json
 *.sh
+*.py
 #The files below does contains credentials. Watchout with uncommment this files!
 secrets.yaml
