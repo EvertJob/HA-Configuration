@@ -10,3 +10,12 @@ notify:
     services:
       - service: !secret iphone_ej
       - service: !secret iphone_p
+
+    # WhatsApp Notify 
+  - name: WhatsApp_EJ
+    platform: rest
+    resource: https://api.callmebot.com/whatsapp.php
+    data:
+      source: HA
+      phone: !secret phone_number_ej
+      apikey: !secret api_key_ej
