@@ -185,12 +185,12 @@ sensor:
         friendly_name: "Bed and Nozzle Power"
         value_template: '{{ states("sensor.3d_printer_bed_power") }}% / {{ states("sensor.3d_printer_hotend_power") }}%'
 
-binary_sensor:
-  - platform: template
-    sensors:
-      3d_printer_filament:
-        friendly_name: "Filament Detected"
-        icon_template: mdi:printer-3d-nozzle-alert
-        device_class: motion
-        value_template: >-
-          {{ states.sensor.printer_3d_sensor.attributes["filament_switch_sensor Filament"]["filament_detected"] }}
+#binary_sensor:
+#  - platform: template
+#    sensors:
+#      3d_printer_filament:
+#        friendly_name: "Filament Detected"
+#        icon_template: mdi:printer-3d-nozzle-alert
+#        device_class: motion
+#        value_template: >-
+#          {{ states.sensor.printer_3d_sensor.attributes["filament_switch_sensor Filament"]["filament_detected"] }}
