@@ -16,7 +16,7 @@ deps
 esphome
 ignore
 image
-nodered
+node-red
 packages
 sensors
 .ssh
