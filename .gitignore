@@ -8,6 +8,7 @@ www/*
 
 # Files and folders to ignore
 #Folders
+__pycache__
 backups
 blueprints
 .cloud
