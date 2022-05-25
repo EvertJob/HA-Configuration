@@ -1,0 +1,9 @@
+service: media_player.play_media
+target:
+  entity_id: media_player.kitchen
+data:
+  media_content_type: music
+  media_content_id: "https://assets.nos.nl/data/radionieuws.mp3"
+  extra:
+    thumb: "https://brands.home-assistant.io/_/homeassistant/logo.png"
+    title: HomeAssistantRadio

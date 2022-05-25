@@ -1,0 +1,14 @@
+- id: '1653480502751'
+  alias: Container TTS
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - input_button.container_tts
+  condition: []
+  action:
+  - service: tts.cloud_say
+    data:
+      entity_id: media_player.kitchen
+      message: "{{ states('sensor.afvalinfo_trash_type_today') }}"
+  mode: single
